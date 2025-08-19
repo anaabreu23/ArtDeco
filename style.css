@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(to right, #d9d9d9 0%, #7d1609 100%);
+    height: 10vh;
+}
+
+.btn_home {
+   
+    
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_gallery {
+  
+    
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_sale {
+   
+    
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_aboutus {   
+    width: 9vh;
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_subscribe {
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_news {
+    
+  
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+
+#carrinho {
+stroke: #DAA29A;
+position: absolute;
+right: 100px;
+bottom: 26px;
+}
+
+
+header{display: flex;
+padding: 30px;
+gap: 300px;
+align-items: center;
+position: relative;
+}
+
+nav{display: flex;
+gap: 40px;}
+
+#pesquisa{display: inline-block;
+padding: 10px;
+border-radius: 50vh;
+border: none;}
+
+.lista-escondida{position: fixed;
+width: 300px;
+right: -300px;
+top: 0;
+bottom: 0;
+background-color: #7d1609;
+}
+
+body{height: 90vh;}
+
+#check{position: absolute;
+right: 110px;
+bottom: 35px;
+transform: scale(3);
+z-index: 1;
+opacity: 0;
+cursor: pointer;
+}
+
+#check:checked + .lista-escondida{
+    margin-right: 300px;
+    
+} 

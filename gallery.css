@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(to right, #d9d9d9 0%, #7d1609 100%);
+    height: 10vh;
+}
+
+.btn_home {
+
+
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_gallery {
+
+
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_sale {
+
+
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_aboutus {
+    width: 9vh;
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_subscribe {
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+.btn_news {
+
+
+
+    color: #572C28;
+    text-decoration: none;
+}
+
+
+#carrinho {
+    stroke: #DAA29A;
+    position: absolute;
+    right: 100px;
+    bottom: 26px;
+}
+
+
+header {
+    display: flex;
+    padding: 30px;
+    gap: 300px;
+    align-items: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+#pesquisa {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50vh;
+    border: none;
+}
+
+.lista-escondida {
+    position: fixed;
+    width: 300px;
+    right: -300px;
+    top: 0;
+    bottom: 0;
+    background-color: #7d1609;
+}
+
+body {
+    height: 90vh;
+}
+
+#check {
+    position: absolute;
+    right: 110px;
+    bottom: 35px;
+    transform: scale(3);
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#check:checked+.lista-escondida {
+    margin-right: 300px;
+
+}
+
+#gallery {height: 90vh;}
+
+.btn_all {
+    padding: 14px 24px;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+    margin-left: 650px;
+}
+
+.btn_all:hover {
+    color: black;
+    background-color: #fcdc00;
+}
+
+.btn_approved {
+    padding: 14px 24px;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+}
+
+.btn_approved:hover {
+    color: black;
+    background-color: #fcdc00;
+}
+
+.btn_unapproved {
+    padding: 14px 24px;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+}
+
+.btn_unapproved:hover {
+    color: black;
+    background-color: #fcdc00;
+    ;
+}
+
+.btn_unviewed {
+    padding: 14px 24px;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+}
+
+.btn_unviewed:hover {
+    color: black;
+    background-color: #fcdc00;
+}
+
+#btns_space {
+    border: solid 1px;
+    color: white;
+    height: 50px;
+}
+
+.g1 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g2 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    size: 50px;
+    width: 125px;
+}
+
+.g3 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g4 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g5 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g6 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g7 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g8 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g9 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g10 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g11 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+
+.g12 {
+    display: inline-block;
+    margin: 11px;
+    margin-left: 60px;
+    width: 125px;
+}
+.travis{max-width: 250px;
+position: relative;}
+
+.disco{position: absolute;}
