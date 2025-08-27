@@ -175,88 +175,64 @@ body {
 .g1 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+    width: 500px;
+height: 500px;
 }
 
 .g2 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
     size: 50px;
-    width: 125px;
+    width: 500px;
+height: 500px;
 }
 
 .g3 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+    width: 500px;
+height: 500px;
 }
 
 .g4 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+    width: 500px;
+height: 500px;
 }
 
 .g5 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+    width: 500px;
+height: 500px;
 }
 
 .g6 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+    width: 500px;
+height: 500px;
 }
 
 .g7 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+    width: 500px;
+height: 500px;
 }
 
 .g8 {
     display: inline-block;
     margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+    width: 500px;
+height: 500px;
+
 }
 
-.g9 {
-    display: inline-block;
-    margin: 11px;
-    margin-left: 60px;
-    width: 125px;
+#gallery{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
 }
-
-.g10 {
-    display: inline-block;
-    margin: 11px;
-    margin-left: 60px;
-    width: 125px;
-}
-
-.g11 {
-    display: inline-block;
-    margin: 11px;
-    margin-left: 60px;
-    width: 125px;
-}
-
-.g12 {
-    display: inline-block;
-    margin: 11px;
-    margin-left: 60px;
-    width: 125px;
-}
-.travis{max-width: 250px;
-position: relative;}
-
-.disco{position: absolute;}
